@@ -2,10 +2,10 @@
 
 ## CRIAR SUBDOMINIO E APONTAR PARA O IP DA SUA VPS
 
-Testado ubuntu 20 e 22
+Testado ubuntu 20
 
 
-Editar arquivo config e colocar senhas de sua preferencia e seu email, dominios.
+Editar arquivo config e colocar senhas, email e dominios.
 
 Se quiser instalar 2 instancia mudar nome da instancia, porta backend, porta frontend e porta_postgre_intancia, não deve utilizar mesmas portas de outras instalações
 
@@ -38,7 +38,7 @@ Depois reniciar seguir com a instalacao
 cd /root
 ```
 ```bash
-git clone https://github.com/cleitonme/izing.instalador.git izinginstalador
+git clone https://github.com/Elton-Coelho/izing.instalador.git izinginstalador
 ```
 Editar dados com seus dados, com nano para salvar aperta Ctrl + x
 ```bash
@@ -128,13 +128,3 @@ docker container restart portainer
 Depois acesse novamente url http://seuip:9000/
 
 
-## Recomendação de VPS boa e barata
-
--  [Powerful cloud VPS & Web hosting.](https://control.peramix.com/?affid=58)
-
-## Consultoria particular
-
-Para quem gostaria de uma consultoria ou que eu faça instalação pode chamar no whatsapp (será cobrado por isso) 48 999416725 
-
--  [Versão pro do IZING](https://github.com/cleitonme/izing.pro.install)
--  [Nova Versão com API Bayles](https://github.com/cleitonme/izingpro.bayles.install)
