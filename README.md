@@ -38,7 +38,7 @@ Depois reniciar seguir com a instalacao
 cd /root
 ```
 ```bash
-git clone https://github.com/Elton-Coelho/izing.instalador.git izinginstalador
+gh repo clone Elton-Coelho/izing.instalador
 ```
 Editar dados com seus dados, com nano para salvar aperta Ctrl + x
 ```bash
